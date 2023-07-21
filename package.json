@@ -1,0 +1,23 @@
+{
+  "name": "thincss",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./lib/thincss",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "pretty": "prettier --write ."
+  },
+  "dependencies": {
+    "astro": "^2.9.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-astro": "^0.11.0",
+    "rehype-pretty-code": "^0.10.0",
+    "sass": "^1.64.0"
+  }
+}
